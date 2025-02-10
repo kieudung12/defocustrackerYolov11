@@ -1,0 +1,35 @@
+# Learning Rate and Optimization
+lr0: 0.001          # Initial learning rate (1e-3)
+lrf: 0.05            # Final learning rate multiplier (lr0 * lrf), giving lr of 1e-4
+momentum: 0.937        # Momentum for SGD optimizer
+weight_decay: 0.0005  # L2 regularization
+warmup_epochs: 3.0   # Number of warmup epochs
+warmup_momentum: 0.8  # Warmup initial momentum
+warmup_bias_lr: 0.1  # Warmup initial bias learning rate
+
+# Loss Gains
+box: 7.5          # Box loss gain
+cls: 0.2           # Class loss gain
+cls_pw: 1.0        # Class loss positive weight
+obj: 1.25          # Object loss gain (scales the contribution of objectness loss)
+obj_pw: 1.2        # Object loss positive weight
+iou_t: 0.5         # IoU threshold for objectness
+anchor_t: 4.0      # Anchor-matching threshold
+
+# Focal Loss
+fl_gamma: 0.0      # Focal loss gamma (if fl_gamma > 0, enables focal loss)
+
+# Augmentation Hyperparameters
+hsv_h: 0.0         # No hue augmentation
+hsv_s: 0.2         # No saturation augmentation
+hsv_v: 0.4         # No value augmentation
+degrees: 0.0       # No rotation
+translate: 0.1       # No translation
+scale: 0.5         # No scaling
+shear: 0.0         # No shearing
+perspective: 0.0   # No perspective changes
+flipud: 0.5        # No vertical flipping
+fliplr: 0.5        # Keep horizontal flipping
+mosaic: 0.0        # No mosaic augmentation
+mixup: 0.0        # No mixup augmentation
+copy_paste: 0.0    # No copy-paste augmentation
