@@ -20,10 +20,10 @@ import torchvision
 from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 
 
-from yolov9_main.models.common import DetectMultiBackend
-from yolov9_main.utils.general import non_max_suppression, scale_boxes, xyxy2xywh
-from yolov9_main.utils.torch_utils import select_device, smart_inference_mode
-from yolov9_main.utils.augmentations import letterbox
+from yolov7_master.models.common import DetectMultiBackend
+from yolov7_master.utils.general import non_max_suppression, scale_boxes, xyxy2xywh
+from yolov7_master.utils.torch_utils import select_device, smart_inference_mode
+from yolov7_master.utils.augmentations import letterbox
 from IPython.display import clear_output
 
 
