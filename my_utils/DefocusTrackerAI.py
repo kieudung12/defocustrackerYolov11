@@ -198,7 +198,7 @@ class DefocusTrackerAI():
   @smart_inference_mode()
   def detect_yolov9(
       self,
-      weights: '/my_models/detect/yolov9_m/yolov9_m_dpt.pt',
+      weights: './my_models/detect/yolov9_m/yolov9_m_dpt.pt',
       conf_thres = 0.5,
       N_frames = 10,
       max_det = 500,
