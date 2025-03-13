@@ -32,7 +32,6 @@ sys.path.append(ROOT + '/yolov9_main')
 
 from my_utils.image_utils import image_set, show_imageset
 from my_utils.inference_utils import load_fasterrcnn, predict_one_image
-from my_utils.tracking_utils import init_tracking_file
 from my_utils.datahandle_utils import WelcomeMessage, json2csv, json2txt, json2list, yolotxt2csv, project_root
 
 from yolov9_main.models.common import DetectMultiBackend
