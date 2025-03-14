@@ -17,9 +17,9 @@ First, you need to download the YOLOv9-m model weights that we trained for defoc
 
 [**YOLOv9-M-DPTAI**](https://scholar.tecnico.ulisboa.pt/records/AwQ5NDVtf9LiHl1SCDlXQfQtqS4e6Umo7-CQ)
 
-And upload them to the cloned git rep to ./my_models/detect/yolov9_m/
-
 Second, use the 'run colab button' on this README file and run the cells until Sec.2.1 of the Jupyter Notebook - Initiate DefocusTrackerAI. 
+
+Upload the weights to the cloned git rep to ./my_models/detect/yolov9_m/
 
 Sec. 2.1 You need to provide the directory containing the images that you want to analyze.
 
