@@ -13,8 +13,8 @@ DefocusTrackerAI is a ready-to-use generalized framework for the automated detec
 
 ## Get started 
 
-First, you need to download the YOLOv9-m model weights that we trained for defocus particle images. The weights for the YOLOv9-m model trained for defocus particle images is available in the following link: 
-    [**YOLOv9-M-DPTAI**](https://drive.google.com/uc?export=download&id=1yqtbfV1t14viiFXcD4B8w5NmMxR7RCtW)
+First, you need to download the YOLOv9-m model weights that we trained for defocus particle images. The weights for the YOLOv9-m model trained for defocus particle images is available through the following link: 
+    [**YOLOv9-M-DPTAI**](https://scholar.tecnico.ulisboa.pt/records/AwQ5NDVtf9LiHl1SCDlXQfQtqS4e6Umo7-CQ)
 
 Second, use the 'run colab button' on this README file and run the cells until Sec.2.1 Initiate DefocusTrackerAI. 
 
