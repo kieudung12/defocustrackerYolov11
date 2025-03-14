@@ -1,19 +1,22 @@
 # DefoscusTrackerAI - A generalized framework for automated defocus particle detection
 
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gnclctnh/defocustrackerAI-notebooks/blob/main/EDA_2DParticleTrajectory.ipynb)
-
-
-## Overview
-
-DefocusTrackerAI is a ready-to-use generalized framework for the automated detection of defocus particle images
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gnclctnh/defocustrackerAI-notebooks/blob/main/DefocusTrackerAI_Ready2Use.ipynb)
 
 This project is part of the ISPIV 2025 contribution and a journal publication currently under review.
 
+## Overview
 
-## Getting started 
+DefocusTrackerAI is a ready-to-use generalized framework for the automated detection of defocus particle images, including:
+    - Astigmatic and non-astigmatic particle images
+    - Sprays and droplets
+    - Potentially to non-spherical particles, cells and micro-organisms
 
-The weights for the YOLOv9-m model trained for defocus particle images is available in the following link: 
-[**YOLOv9-M-DPTAI**](https://drive.google.com/uc?export=download&id=1yqtbfV1t14viiFXcD4B8w5NmMxR7RCtW)
+## Get started 
+
+First, you need to download the YOLOv9-m model weights that we trained for defocus particle images. The weights for the YOLOv9-m model trained for defocus particle images is available in the following link: 
+    [**YOLOv9-M-DPTAI**](https://drive.google.com/uc?export=download&id=1yqtbfV1t14viiFXcD4B8w5NmMxR7RCtW)
+
+Second, use the 'run colab button' on this README file
 
 
 
