@@ -1,6 +1,6 @@
 # DefoscusTrackerAI - A generalized framework for automated defocus particle detection
 
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitlab.com/goncalo.coutinho/defocustrackerAI-main/blob/main/notebooks/DefocusTrackerAI_Ready2Use.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitlab.com/goncalo.coutinho/defocustrackerAI-main/-/blob/main/notebooks/DefocusTrackerAI_Ready2Use.ipynb)
 
 
 ## Overview
