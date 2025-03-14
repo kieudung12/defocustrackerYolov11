@@ -1,5 +1,6 @@
-# defocustrackerAI-main
+# DefoscusTrackerAI - A generalized framework for automated defocus particle detection
 
+Implementation of ISPIV 2025 abstract
 
 
 ## Getting started
