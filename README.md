@@ -13,14 +13,18 @@ DefocusTrackerAI is a ready-to-use generalized framework for the automated detec
 
 ## Get started 
 
-First, you need to download the YOLOv9-m model weights that we trained for defocus particle images. The weights for the YOLOv9-m model trained for defocus particle images is available through the following link: 
-    [**YOLOv9-M-DPTAI**](https://scholar.tecnico.ulisboa.pt/records/AwQ5NDVtf9LiHl1SCDlXQfQtqS4e6Umo7-CQ)
+First, you need to download the YOLOv9-m model weights that we trained for defocus particle images. The weights for the YOLOv9-m model trained for defocus particle images is available through the following link:
 
-Second, use the 'run colab button' on this README file and run the cells until Sec.2.1 Initiate DefocusTrackerAI. 
+[**YOLOv9-M-DPTAI**](https://scholar.tecnico.ulisboa.pt/records/AwQ5NDVtf9LiHl1SCDlXQfQtqS4e6Umo7-CQ)
 
-    In Sec. 2.1 You need to provide the directory containing the images that you want to analyze.
-    In Sec. 2.2 You can define the number of frames that you want to process, the confidence threshold and IOU as well.
-    In Sec. 2.3 You can visualize the results.
+Second, use the 'run colab button' on this README file and run the cells until Sec.2.1 of the Jupyter Notebook - Initiate DefocusTrackerAI. 
+
+Sec. 2.1 You need to provide the directory containing the images that you want to analyze.
+Sec. 2.2 You can define the number of frames that you want to process, the confidence threshold and IOU as well.
+Sec. 2.3 You can visualize the results.
+
+The detections are saved in ./runs/.../dataset_name/ . You will find a folder with txt files containing the detections for each frame, a csv file
+with all detections and a txt with the hyper-parameters from inference.
 
 ## Project status - Updates
 
