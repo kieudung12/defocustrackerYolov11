@@ -4,7 +4,8 @@
 
 This project is part of the ISPIV 2025 contribution and a journal publication currently under review.
 
-Citation: 
+Citation:
+ 
 @article{coutinho2025defocustrackerai,
   title={{DefocusTrackerAI}: DefocusTrackerAI: Adaptive and Automatic Detection of Defocused Particle Images},
   author={Coutinho, Gonçalo; Moita, Ana; Moreira, António; Rossi, Massimiliano},
