@@ -4,6 +4,14 @@
 
 This project is part of the ISPIV 2025 contribution and a journal publication currently under review.
 
+Citation: 
+@article{coutinho2025defocustrackerai,
+  title={{DefocusTrackerAI}: DefocusTrackerAI: Adaptive and Automatic Detection of Defocused Particle Images},
+  author={Coutinho, Gonçalo; Moita, Ana; Moreira, António; Rossi, Massimiliano},
+  booktitle={Proceedings of the 16th International Symposium on Particle Image Velocimetry},
+  year={2025}
+}
+
 ## Overview
 
 DefocusTrackerAI is a ready-to-use generalized framework for the automated detection of defocus particle images, including:
